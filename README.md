@@ -9,4 +9,8 @@
 ⑥　用户选择输出方式（如输出到文件、打印机等）   √
 ⑦　最好能提供图形用户界面（根据自己能力选做，以完成上述功能为主）×
 
+代码执行页面
+![}8F)VA)AVZNBDQ2{(E62KG](https://user-images.githubusercontent.com/45679167/116560466-fc860580-a933-11eb-80f4-f75d90a31b9c.png)
 
+打印结果
+![Uploading image.png…]()
