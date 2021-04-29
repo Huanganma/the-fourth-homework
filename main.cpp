@@ -7,6 +7,7 @@
 #include <math.h>
 #include <iomanip>
 #include <stdio.h>
+using namespace std;
 float num[1000];
 float numcreate()//随机数生成
 {
@@ -40,6 +41,9 @@ float numcreate2(int shuliang, int nummax)//控制随机数大小
 float print1(int shuliang, int point, int fuhao)//打印无括号的四则运算
 {
 	int i;
+	std::cout << "******四则算式如下******";
+	std::cout << "\n";
+	std::cout << "\n";
 	if (fuhao == 1)
 	{
 		for (i = 0; i < shuliang; i = i + 4)
@@ -218,6 +222,9 @@ float print1(int shuliang, int point, int fuhao)//打印无括号的四则运算
 float print2(int shuliang, int point, int fuhao)//打印有括号的四则运算
 {
 	int i;
+	std::cout << "******四则算式如下******";
+	std::cout << "\n";
+	std::cout << "\n";
 	if (fuhao == 1)
 	{
 		for (i = 0; i < shuliang; i = i + 4)
@@ -775,9 +782,6 @@ int main()
 	std::cout << "************是否打印为TXT文件？是输入1******\n";
 	std::cin >> place;
 	std::cout <<"\n";
-	std::cout << "\n";
-	std::cout << "\n";
-	std::cout << "\n";
 	std::cout << "\n";
 
 
